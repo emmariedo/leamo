@@ -1,0 +1,18 @@
+.u-line {
+  border-top: 1px solid black;
+}
+
+.u-quote {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .u-quote {
+    font-size: 36px;
+  }
+}

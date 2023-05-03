@@ -1,0 +1,61 @@
+.products-title h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.products-title {
+  background-color: black;
+  width: 100px;
+  padding: 10px 13px 13px 10px;
+  border-radius: 0px 40px 40px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-title h1 {
+    font-size: 36px;
+  }
+  .products-title {
+    width: 200px;
+  }
+}
+
+.products-presentation {
+  padding-top: 65px;
+}
+
+.products-presentation h2 {
+  font-family: Helvetica;
+  font-size: 21px;
+  color: #ffffff;
+  letter-spacing: 0;
+  font-weight: 400;
+  background-color: black;
+  border-radius: 40px;
+  width: 85px;
+  padding: 5px;
+  text-align: center;
+}
+
+.products-presentation h3 {
+  font-family: Helvetica;
+  font-size: 21;
+  color: black;
+  font-weight: bold;
+}
+
+.products-presentation h4 {
+  font-family: Helvetica;
+  font-size: 21;
+  color: black;
+  font-weight: 400;
+}
+
+.products-presentation h5 {
+  font-family: Helvetica;
+  font-size: 16;
+  color: black;
+  font-weight: lighter;
+}
