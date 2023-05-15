@@ -1,14 +1,64 @@
 .friends {
   background-image: url(../img/img-flou.png);
   background-size: cover;
-  height: 650px;
+  height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .friends {
+    height: 700px;
+  }
+}
+
+.friends img {
+  width: 95%;
+  padding-top: 20%;
 }
 
 .friends h1 {
   font-family: Helvetica;
-  font-size: 90px;
+  font-size: 34px;
   font-weight: 400;
   color: #000000;
   letter-spacing: 0;
-  line-height: 83px;
+  line-height: 36px;
+  padding-top: 15%;
+}
+
+@media screen and (min-width: 768px) {
+  .friends h1 {
+    font-family: Helvetica;
+    font-size: 90px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 83px;
+  }
+}
+
+.name a {
+  font-family: Helvetica-Light;
+  font-size: 8px;
+  color: #000000;
+  letter-spacing: 0;
+  padding-right: 15%;
+}
+
+@media screen and (min-width: 768px) {
+  .name a {
+    font-family: Helvetica-Light;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+  }
+}
+
+.name {
+  padding-left: 48%;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    padding-left: 50%;
+    padding-top: 15px;
+  }
 }
