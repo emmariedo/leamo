@@ -1,0 +1,28 @@
+.contacts img {
+  width: 30%;
+  padding: 25px 0 20px 20px;
+}
+
+.contacts p {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  padding-left: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media img {
+  width: 10%;
+}
+
+.social-media a {
+  font-family: Helvetica-Bold;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+}
