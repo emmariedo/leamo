@@ -3,6 +3,12 @@
   padding: 20px 0 25px 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .infos img {
+    padding: 90px 0 60px 0;
+  }
+}
+
 .infos p {
   font-family: Helvetica;
   font-size: 14px;
@@ -11,8 +17,20 @@
   padding-left: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .infos p {
+    font-size: 27px;
+    padding-left: 0;
+  }
+}
+
 .social-media {
   padding: 60px 5px 5px 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media {
+  }
 }
 
 .social-media p {
@@ -22,6 +40,18 @@
   letter-spacing: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .social-media p {
+    font-size: 21px;
+  }
+}
+
 .social-media img {
   width: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media img {
+    width: 10%;
+  }
 }
