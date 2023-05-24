@@ -4,10 +4,20 @@
   height: 90px;
   background-size: contain;
   background-position: 50px 0;
+  animation: carousel 1s infinite linear;
 }
 
 @media screen and (min-width: 768px) {
   .carousel {
     height: 180px;
+  }
+}
+
+@keyframes carousel {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 48.3px 0;
   }
 }
