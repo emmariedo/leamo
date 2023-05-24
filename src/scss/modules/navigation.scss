@@ -1,3 +1,28 @@
-.navigation img {
+.leamo-home {
   padding: 17px;
+  width: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .leamo-home {
+    padding: 40px;
+    width: 270px;
+  }
+}
+
+.burger-menu {
+  padding: 17px;
+  width: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    width: 120px;
+    padding: 40px;
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
 }
